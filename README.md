@@ -10,3 +10,5 @@ Usage example:
 		int[] a = {4, 2, 7, 4, 9, 6, 7, 8};
 		int[] c = j.add_int(a, b); 
 ```
+
+Uses native AVX instructions to do hardware-parallel vector calculations on the CPU.
